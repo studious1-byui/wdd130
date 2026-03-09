@@ -1,33 +1,30 @@
 .callout {
-    max-width: 475px;
+    max-width: 400px;
     margin: 10px;
-    border: 1px solid;
-    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px;
     background-color: darkblue;
-    color: white;
+    color: #fff;
 }
 
 .callout img {
     float: right;
-    margin: 15px 15px 9px 15px;
-    border: 1px solid white;
-    padding: 1px;
-    background-color: darkblue;
-    width: 120px;
-    height: 120px;
+    margin: 0 0 10px 15px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #bbb;
+    width: 100px;
+    height: auto;
 }
 
 blockquote {
-    margin: 10px;
-    font-size: 19px;
+    margin: 0;
 }
 
 cite {
     display: block;
-    margin: 3px;
-    border-top: 1px dotted;
-    width: auto;
-    color: white;
-    background-color: darkblue;
+    border-top: 1px dotted #fff;
+    padding-top: 3px;
     text-align: right;
+    font-size: smaller;
 }
