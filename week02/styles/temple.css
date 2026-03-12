@@ -11,14 +11,10 @@ body {
 
 header,
 footer {
-    margin: 0 auto;
     padding: 10px;
-
-    max-width: 75%;
-    color: white;
-    background-color: black;
+    color: #fff;
+    background-color: #333;
     text-align: center;
-    font-family: sans-serif;
     font-size: 1.5rem;
 }
 
@@ -29,12 +25,7 @@ main {
 
 h1 {
     margin: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: black;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 17pt;
 }
 
 h2 {
@@ -46,6 +37,7 @@ section {
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px 10px;
     background-color: #abe;
+    font-size: .9rem;
 }
 
 section p {
