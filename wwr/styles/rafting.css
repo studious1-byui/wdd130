@@ -2,7 +2,7 @@
     --primary-color: green;
     --secondary-color: white;
     --accent1-color: darkblue;
-    --accent2-color: lightyellow;
+    --accent2-color: blue;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -21,6 +21,10 @@ header {
 
 header img {
     position: relative;
+}
+
+ul {
+    color: var(--accent2-color);
 }
 
 body {
@@ -107,6 +111,10 @@ article {
 
 article p {
     text-align: left;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
