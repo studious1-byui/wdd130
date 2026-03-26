@@ -64,14 +64,14 @@ aside {
     padding: 1em;
     background-color: #eee;
     color: #333; */
-    text-align: var(--text-center);
+    /* text-align: var(--text-center); */
 }
 
 aside h2 {
     position: absolute;
     font-size: 20px;
-    top: 20px;
-    left: 125px;
+    top: 3px;
+    left: 3em;
     color: white;
 }
 
