@@ -71,12 +71,13 @@ aside {
 aside h2 {
     position: absolute;
     font-size: 20px;
-    top: 3px;
+    top: 5px;
     left: 3em;
     color: white;
 }
 
 aside img {
+    margin-top: 10px;
     width: 200px;
     height: auto;
 }
