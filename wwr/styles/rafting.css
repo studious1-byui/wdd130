@@ -17,10 +17,13 @@ header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-align: left;
+    display: grid;
+    place-items: center;
 }
 
 header img {
     position: relative;
+    justify-content: left;
 }
 
 ul {
