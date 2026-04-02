@@ -161,6 +161,11 @@ section p {
     text-align: left;
 }
 
+section figure {
+    display: flex;
+    align-items: flex-end;
+}
+
 figure figcaption {
     color: var(--accent1-color);
 }
