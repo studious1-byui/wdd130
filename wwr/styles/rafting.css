@@ -160,3 +160,7 @@ section p {
     margin-top: 25px;
     text-align: left;
 }
+
+figure figcaption {
+    color: var(--accent1-color);
+}
