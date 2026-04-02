@@ -163,9 +163,15 @@ section p {
 
 section figure {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+
+section figure img {
+    display: flex;
+    align-items: center;
 }
 
 figure figcaption {
     color: var(--accent1-color);
+    align-items: center;
 }
