@@ -14,11 +14,18 @@
 }
 
 header {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color);
     color: var(--primary-color);
     text-align: left;
     display: grid;
     place-items: center;
+    */
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
 header img {
@@ -64,7 +71,23 @@ article {
 }
 
 nav ul {
-    text-align: left;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    width: 695px;
+    background-color: var(--accent1-color);
+}
+
+nav li {
+    flex: 1 1 auto;
+}
+
+header nav a {
+    display: flex;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .socialmedia a {
