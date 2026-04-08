@@ -5,31 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 
 <body>
     <main>
         <form>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
 
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail" required>
+            <div class="form-item" column2>
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
 
-            <label for="browser">What is your favorite browser?:</label>
-            <select id="browser" name="browser">
-                <option value="Edge">Microsoft Edge</option>
-                <option value="Chrome">Google Chrome</option>
-                <option value="Safari">Apple Safari</option>
-                <option value="Other">Other</option>
-            </select>
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?:</label>
+                <select id="browser" name="browser">
+                    <option value=" Chrome">Google Chrome</option>
+                    <option value="Edge">Microsoft Edge</option>
+                    <option value="Safari">Apple Safari</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
 
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
 
-            <label for="feedback">List the places you have lived.</label>
-            <textarea id="feedback" name="feedback" rows="3"
-              placeholder="City1 State1, City2 State2, City3 State3"></textarea>
+            <div class="form-item">
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="3"
+                  placeholder="City1 State1, City2 State2, City3 State3"></textarea>
+            </div>
 
             <button type="submit" id="poll" name="poll">Submit Poll</button>
         </form>
