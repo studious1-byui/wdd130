@@ -92,6 +92,7 @@ header nav a {
 
 .socialmedia a {
     text-decoration: none;
+    float: right;
 }
 
 .hero {
@@ -192,6 +193,8 @@ iframe {
 form {
     display: grid;
     width: 250px;
+    height: 500px;
+    margin: 20px;
     background-color: white;
     color: black;
 
