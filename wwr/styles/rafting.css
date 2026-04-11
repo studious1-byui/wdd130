@@ -182,7 +182,15 @@ figure figcaption {
     align-items: center;
 }
 
+iframe {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
+
 form {
+    display: grid;
     width: 250px;
     background-color: white;
     color: black;
