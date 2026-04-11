@@ -200,3 +200,7 @@ form {
     color: black;
 
 }
+
+.profs img {
+    align-items: center;
+}
