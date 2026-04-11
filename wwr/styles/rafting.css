@@ -124,6 +124,12 @@ h2 {
     text-align: center;
 }
 
+h3,
+h4 {
+    text-align: center;
+    color: black;
+}
+
 article {
     /* clear: both; */
     /* float: right; */
@@ -174,4 +180,11 @@ section figure img {
 figure figcaption {
     color: var(--accent1-color);
     align-items: center;
+}
+
+form {
+    width: 250px;
+    background-color: white;
+    color: black;
+
 }
