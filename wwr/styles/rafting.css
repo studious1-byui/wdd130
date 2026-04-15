@@ -169,12 +169,12 @@ section p {
 }
 
 section figure {
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
 section figure img {
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
@@ -201,6 +201,25 @@ form {
 
 }
 
-.profs img {
+.em-prof {
+    max-width: 840px;
     align-items: center;
+}
+
+.employee1 img {
+    display: grid;
+    max-width: 175px;
+    padding: 0;
+}
+
+.employee2 img {
+    display: grid;
+    max-width: 175px;
+    padding: 0;
+}
+
+.employee3 img {
+    display: grid;
+    max-width: 175px;
+    padding: 0;
 }
