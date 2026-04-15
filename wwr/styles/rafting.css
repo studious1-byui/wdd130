@@ -216,7 +216,12 @@ form {
 }
 
 .newsletter {
-    display: grid;
+    color: black;
+    width: 250px;
+    height: 250px;
+    margin-top: 400px;
+    padding: 0px;
+    background-color: white;
 }
 
 .em-prof {
