@@ -33,6 +33,20 @@ header img {
     justify-content: left;
 }
 
+article div p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+article img {
+    position: absolute;
+}
+
+.newsletter {
+    max-width: 400px;
+    position: absolute;
+}
+
 ul {
     color: var(--accent2-color);
 }
@@ -199,6 +213,10 @@ form {
     background-color: white;
     color: black;
 
+}
+
+.newsletter {
+    display: grid;
 }
 
 .em-prof {
