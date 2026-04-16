@@ -33,6 +33,13 @@ header img {
     justify-content: left;
 }
 
+.contact h1 {
+    margin: 0px auto;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
 article div p {
     margin: 0 auto;
     text-align: center;
